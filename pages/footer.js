@@ -4,10 +4,10 @@ function Footer (){
     return (
         <div className="rodape">
             <Image 
-            src="/public/images/logo-footer.jpg" 
+            src="/images/logo-footer.svg" 
             alt="CDL Cachoeiro"
-            width={20}
-            height={20}
+            width={50}
+            height={50}
             />
         </div>
     )

@@ -45,7 +45,7 @@ function PaginaInicial(){
                                 <a href="tel:+552835261600" className="tel-fixo">Ligue agora</a>
                             </div>
                             <div className="contato2">
-                                <a href="https://wa.me/5528992985763?text=Olá!+Desejo+fazer+meu+certificado." className="tel-whats">Nosso WhatsApp</a>
+                                <a href="https://wa.me/5528992985763?text=Olá!+Desejo+fazer+meu+certificado." className="tel-whats">WhatsApp</a>
                             </div>
                         </div>
                     </div>

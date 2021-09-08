@@ -131,6 +131,15 @@ body{
     align-content: center;
     text-align: center;
 }
+
+/**********************************************
+**********************************************
+////Comportamento em Dispositivos móveis.////
+*******************************************
+*****************************************/
+
+
+
 @media(max-width:2595px){
         .conteudo-imagem{
             margin-left: 330px;
@@ -154,22 +163,62 @@ body{
         margin-left: 265px;
     }
 }
+/*Galaxy S5*/
+@media(max-width:360px){ 
+    .video{
+        padding: 70px;
+    }
+    .video-yt{
+        transform: translateY(-20px);
+    }
+    
+}
+
+/*Pixel 2*/
+@media(max-width:411px){ 
+    .video-yt{
+        transform: translateX(-10px);
+    }
+    
+}
+/*Iphone 5/SE*/
+@media(max-width:320px){ 
+    .video{
+        padding-left: 50px;
+        transform: translateY(-30px);
+    }   
+}
 /*Iphone 6/7/8 Plus IOS 11*/
 @media(max-width:414px){ 
     .conteudo-imagem{
-        margin-left: 50px;
+        margin: 40px;
     }
-    .video-yt{
-        transform: translateX(-40px);
+    .video{
+        margin: 35px;
     }
 }
 /*Iphone 6/7/8 IOS 11*/
 @media(max-width:375px){ 
+    .conteudo{
+        text-align: center;
+    }
     .conteudo-imagem{
-        margin-left: 27px;
+        margin: 40px;
+    }
+    .video{
+        margin-left: 30px;
     }
     .video-yt{
-        transform: translateX(-63px);
+        transform: translateX(20px);
+    }
+}
+/*Surface Duo*/
+@media(max-width:540px){ 
+    .conteudo-imagem{
+        margin-left: 110px;
+    }
+    .video-yt{
+        transform: translateX(5px);
     }
 }
 /*Galaxy S9/S9+ Android 7.0*/
@@ -180,6 +229,31 @@ body{
     .video-yt{
         transform: translateX(-70px);
     }
+}
+/*Ipad*/
+@media(max-width:768px){ 
+    .conteudo-imagem{
+        margin-left: 80px;
+    }
+}
+/*Ipad Pro*/
+@media(max-width:1024px){ 
+    .conteudo-imagem{
+        transform: translateX(-20px);
+    }
+}
+/*Galaxy Fold*/
+@media(max-width:280px){ 
+    .conteudo{
+        transform: translateX(10px);
+    }
+    .conteudo-imagem{
+        transform: translateX(-10px);
+    }
+    .video-yt{
+        transform: translateX(-110px);
+    }
+    
 }
 
 

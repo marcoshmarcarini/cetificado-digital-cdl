@@ -10,7 +10,11 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #034C8C;
     color: #ffffff;
-
+    animation: iniciar 400ms;
+}
+@keyframes iniciar {
+    from{opacity: 0;}
+    to{opacity: 1;}
 }
 
 /*Primeira parte do site abaixo do Head*/
@@ -148,9 +152,20 @@ body{
             transform: translateX(0px);
         }
 }
+@media screen and (max-width:2246px) and (min-width:240px){
+    .conteudo-imagem{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 @media(max-width:1756px){
     .conteudo-imagem{
         margin-left: 100px;
+    }
+}
+@media (max-width:1080px){
+    .conteudo-imagem{
+        transform: translateX(-40px);
     }
 }
 @media(max-width:1058px){

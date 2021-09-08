@@ -178,6 +178,16 @@ body{
         margin-left: 265px;
     }
 }
+/*Redmi Note 8 - Xiaomi
+@media screen and (width:393px){
+    .video{
+        margin: -20px;
+    }
+
+}
+*/
+
+
 /*Galaxy S5*/
 @media(max-width:360px){ 
     .video{

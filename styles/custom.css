@@ -34,10 +34,14 @@ body{
     margin-right: auto;
 }
 
+.imagem:hover{
+    transform: scale(1.1);
+    transition: all 400ms;
+}
+
 .conteudo-imagem{
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .imagem{

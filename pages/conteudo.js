@@ -9,19 +9,29 @@ function Conteudo (){
                     <div className="imagem-post">
                         <div className="conteudo-imagem">
                                 <div className="imagem">
-                                    <Image src="/images/post-1.png" alt="Post 1" width={300} height={300} className="imgs"/>
+                                    <a href="https://www.instagram.com/cdlcachoeiro/" className="link-img">
+                                        <Image src="/images/post-1.png" alt="Post 1" width={300} height={300} className="imgs"/>
+                                    </a>
                                 </div>
                                 <div className="imagem">
-                                    <Image src="/images/post-2.png" alt="Post 1" width={300} height={300} className="imgs"/>
+                                    <a href="https://www.instagram.com/cdlcachoeiro/" className="link-img">
+                                        <Image src="/images/post-2.png" alt="Post 1" width={300} height={300} className="imgs"/>
+                                    </a>
                                 </div>
                                 <div className="imagem">
-                                    <Image src="/images/post-3.png" alt="Post 1" width={300} height={300} className="imgs"/>
+                                    <a href="https://www.instagram.com/cdlcachoeiro/" className="link-img">
+                                        <Image src="/images/post-3.png" alt="Post 1" width={300} height={300} className="imgs"/>
+                                    </a>
                                 </div>
                                 <div className="imagem">
-                                    <Image src="/images/post-4.png" alt="Post 1" width={300} height={300} className="imgs"/>
+                                    <a href="https://www.instagram.com/cdlcachoeiro/" className="link-img">
+                                        <Image src="/images/post-4.png" alt="Post 1" width={300} height={300} className="imgs"/>
+                                    </a>
                                 </div>
                                 <div className="imagem">
-                                    <Image src="/images/post-5.png" alt="Post 1" width={300} height={300} className="imgs"/>
+                                    <a href="https://www.instagram.com/cdlcachoeiro/" className="link-img">
+                                        <Image src="/images/post-5.png" alt="Post 1" width={300} height={300} className="imgs"/>
+                                    </a>
                                 </div>
                         </div>
                     </div>

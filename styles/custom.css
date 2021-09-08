@@ -224,6 +224,13 @@ body{
     .video{
         margin: 35px;
     }
+    .txt-contato{
+        transform: translateY(15px);
+    }
+    .telefones{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
 }
 /*Iphone 6/7/8 IOS 11*/
 @media(max-width:375px){ 

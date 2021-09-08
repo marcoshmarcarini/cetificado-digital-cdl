@@ -52,8 +52,7 @@ function PaginaInicial(){
                     <div className="rodape">
                         <Image src="/images/logo-footer.svg" alt="CDL Cachoeiro" width={50} height={50}/>
                     </div>
-                </div>
-                <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/" strategy="beforeInteractive"/> 
+                </div> 
                 <Script src="../public/custom.js" strategy="afterInteractive"/> 
             </div>
         )

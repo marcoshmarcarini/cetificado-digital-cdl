@@ -32,20 +32,20 @@ function Textos (){
             </div>
             <div className="paragrafo-lista">
                 <div className="lista">
-                    <Image src="/images/icons/docs.png" width={25} height={25}/>
-                    <p>Assinar documentos digitais;</p>
+                    <Image src="/images/icons/docs.png" width={25} height={25} className="img-icone"/>
+                    <p className="txt-icone">Assinar documentos digitais;</p>
                 </div>
                 <div className="lista">
-                    <Image src="/images/icons/seguro.png" width={25} height={25}/>
-                    <p>Acessar sistemas com dados restritos;</p>
+                    <Image src="/images/icons/seguro.png" width={25} height={25} className="img-icone"/>
+                    <p className="txt-icone" >Acessar sistemas com dados restritos;</p>
                 </div>
                 <div className="lista">
-                    <Image src="/images/icons/work.png" width={25} height={25}/>
-                    <p>Trabalhar em sistemas virtuais;</p>
+                    <Image src="/images/icons/work.png" width={25} height={25} className="img-icone"/>
+                    <p className="txt-icone">Trabalhar em sistemas virtuais;</p>
                 </div>
                 <div className="lista">
-                    <Image src="/images/icons/task.png" width={25} height={25}/>
-                    <p>Executar um maior número de tarefas sem precisar se deslocar.</p>
+                    <Image src="/images/icons/task.png" width={25} height={25} className="img-icone"/>
+                    <p className="txt-icone">Executar um maior número de tarefas sem precisar se deslocar.</p>
                 </div>
             </div>
             <div className="paragrafo-4">

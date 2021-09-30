@@ -19,7 +19,20 @@ body{
 
 /*Primeira parte do site abaixo do Head*/
 .conteudo{
+    padding: 50px;
     margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    max-width: 1000px;
+    color: #034C8C;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 .txt-conteudo{
     font-size: 40px;
@@ -27,11 +40,23 @@ body{
     font-weight: 400;
 }
 /*Ajustando as imagens dos posts*/
-.imagem-post{
-    margin-top: 50px;
-    margin-bottom: 50px;
+.imagem-post1{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+}
+.imagem-post2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .imagem:hover{
@@ -41,7 +66,12 @@ body{
 
 .conteudo-imagem{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .imagem{
@@ -53,18 +83,19 @@ body{
 
 /*Adicionando o vídeo principal da campanha*/
 .video{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
 }
-.video-yt{
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
+.video iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
+
 
 .txt-contato{
     text-align: center;
@@ -137,14 +168,14 @@ body{
     text-align: center;
 }
 
-/**********************************************
-**********************************************
-////Comportamento em Dispositivos móveis.////
-*******************************************
-*****************************************/
 
 
 
+
+
+
+
+/*
 @media(max-width:2595px){
         .conteudo-imagem{
             margin-left: 330px;
@@ -194,8 +225,7 @@ body{
 }
 */
 
-
-/*Galaxy S5*/
+/*Galaxy S5*
 @media(max-width:360px){ 
     .video{
         padding: 70px;
@@ -206,21 +236,21 @@ body{
     
 }
 
-/*Pixel 2*/
+/*Pixel 2*
 @media(max-width:411px){ 
     .video-yt{
         transform: translateX(-10px);
     }
     
 }
-/*Iphone 5/SE*/
+/*Iphone 5/SE
 @media(max-width:320px){ 
     .video{
         padding-left: 50px;
         transform: translateY(-30px);
     }   
 }
-/*Iphone 6/7/8 Plus IOS 11*/
+/*Iphone 6/7/8 Plus IOS 11
 @media(max-width:414px){ 
     .conteudo-imagem{
         margin: 40px;
@@ -236,7 +266,7 @@ body{
         margin-bottom: 25px;
     }
 }
-/*Iphone 6/7/8 IOS 11*/
+/*Iphone 6/7/8 IOS 11
 @media(max-width:375px){ 
     .conteudo{
         text-align: center;
@@ -251,7 +281,7 @@ body{
         transform: translateX(20px);
     }
 }
-/*Surface Duo*/
+/*Surface Duo
 @media(max-width:540px){ 
     .conteudo-imagem{
         margin-left: 110px;
@@ -260,7 +290,7 @@ body{
         transform: translateX(5px);
     }
 }
-/*Galaxy S9/S9+ Android 7.0*/
+/*Galaxy S9/S9+ Android 7.0
 @media(max-width:360px){ 
     .conteudo-imagem{
         margin-left: 20px;
@@ -269,19 +299,19 @@ body{
         transform: translateX(-70px);
     }
 }
-/*Ipad*/
+/*Ipad
 @media(max-width:768px){ 
     .conteudo-imagem{
         margin-left: 80px;
     }
 }
-/*Ipad Pro*/
+/*Ipad Pro
 @media(max-width:1024px){ 
     .conteudo-imagem{
         transform: translateX(-20px);
     }
 }
-/*Galaxy Fold*/
+/*Galaxy Fold
 @media(max-width:280px){ 
     .conteudo{
         transform: translateX(10px);
@@ -322,4 +352,154 @@ body{
         width: 320px;
         height: 240px;
     }
+}
+
+/*
+**********************************************************
+**********************************************************
+****Componente com os textos sobre certificado digital****
+**********************************************************
+**********************************************************
+*/
+
+.paragrafo-1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin-left: -200px;
+}
+.img-certificado-m{
+    border-radius: 50%;
+    display: none !important;
+}
+
+.img-certificado{
+    display: block;
+    border-radius: 50%;
+}
+.txt-1{
+    margin: auto;
+    text-align: justify;
+    max-width: 500px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.paragrafo-2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-identidade{
+    border-radius: 50%;
+}
+.txt-2{
+    margin: auto;
+    text-align: justify;
+    max-width: 500px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.area-btn-wpp{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+.botao-whats{
+    background-color: #04BF45;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+}
+.botao-whats:hover{
+    background-color: #49e043;
+    transition: all 400ms;
+    font-weight: 600;
+}
+
+.paragrafo-3{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    
+}
+.txt-3{
+    text-align: justify;
+    max-width: 500px;
+}
+
+.paragrafo-lista{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: left;
+}
+
+.paragrafo-4{
+    text-align: justify;
+    margin-top: 50px;
+}
+
+
+/**********************************************
+**********************************************
+////Comportamento em Dispositivos móveis.////
+*******************************************
+*****************************************/
+
+@media(max-width: 775px){
+    .conteudo-imagem{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+@media(max-width: 829px){
+    .img-certificado-m{
+        display: block !important;
+    }
+
+    .img-certificado{
+       display: none !important;
+    }  
+
+    .paragrafo-1, .paragrafo-2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .paragrafo-1{
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    .paragrafo-2{
+        margin-top: -200px;
+    }
+    
 }

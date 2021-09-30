@@ -1,7 +1,7 @@
 //import Head from 'next/head'
-import Cabecalho from './cabecalho'
-import Conteudo from './conteudo'
-import Footer from './footer'
+import Cabecalho from '../components/cabecalho'
+import Conteudo from '../components/conteudo'
+import Footer from '../components/footer'
 import Script from 'next/script'
 
 

@@ -12,7 +12,6 @@ function Textos (){
                     Digital?
                 </p>
                 <Image src="/images/certificado-digital.jpeg" width={200} height={200} className="img-certificado"/>
-
             </div>
             <div className="paragrafo-2">
                 <Image src="/images/impress-digital.jpeg" width={200} height={200} className="img-identidade"/>

@@ -529,3 +529,56 @@ body{
     }
     
 }
+
+
+/**********************************************
+**********************************************
+////////////// Keyframes ////////////////////
+*******************************************
+*****************************************/
+
+.paragrafo-1{
+    animation: esquerda 400ms ease-in;
+}
+.paragrafo-2{
+    animation: direita 400ms ease-in;
+}
+
+.img-certificado {
+    animation: mostrarImagem 800ms ease-in;
+}
+.img-certificado-m {
+    animation:  mostrarImagem 800ms ease-in;
+}
+.img-identidade{
+    animation: mostrarImagem 800ms ease-in;
+}
+
+
+@keyframes esquerda {
+    from{
+        transform: translateX(-1000px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes direita {
+    from{
+        transform: translateX(1000px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes mostrarImagem{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+

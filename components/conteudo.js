@@ -35,7 +35,7 @@ function Conteudo (){
                                             </a>
                                         </div>
                                         <div className="imagem">
-                                            <a href="https://www.instagram.com/cdlcachoeiro/" className="link-img">
+                                            <a href="https://www.instagram.com/p/CTkaBO9reJc/" className="link-img">
                                                 <Image src="/images/post-5.png" alt="Post 1" width={200} height={200} className="imgs"/>
                                             </a>
                                         </div>
@@ -57,6 +57,12 @@ function Conteudo (){
                                 <a href="https://wa.me/5528992985763?text=Olá!+Desejo+fazer+meu+certificado." className="tel-whats">WhatsApp</a>
                             </div>
                         </div>
+                    </div>
+                    <div className="txt-site">
+                        <p>Conheça também o nosso site e obtenha mais informações.</p>
+                    </div>
+                    <div className="contato2">
+                                <a href="http://cdlcachoeiro.com.br/" className="tel-site">CDL Cachoeiro</a>
                     </div>
                 </div> 
         </div>

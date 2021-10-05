@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Footer from './footer'
 import Textos from './textos'
 
 function Conteudo (){

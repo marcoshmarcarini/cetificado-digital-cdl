@@ -10,7 +10,7 @@ function Conteudo (){
                                 <div className="imagem-post1">
                                     <div className="conteudo-imagem">
                                             <div className="imagem">
-                                                <a href="https://www.instagram.com/cdlcachoeiro/" className="link-img">
+                                                <a href="https://www.instagram.com/p/CUpcnV6L9LS/" className="link-img">
                                                     <Image src="/images/post-1.png" alt="Post 1" width={300} height={300} className="imgs"/>
                                                 </a>
                                             </div>

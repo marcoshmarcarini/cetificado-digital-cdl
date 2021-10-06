@@ -31,19 +31,31 @@ function Textos (){
             </div>
             <div className="paragrafo-lista">
                 <div className="lista">
-                    <Image src="/images/icons/docs.png" width={25} height={25} className="img-icone"/>
+                    {/*
+                        <Image src="/images/icons/docs.png" width={25} height={25} className="img-icone"/>
+                    */}
+                    <ion-icon name="document" id="img-icone"></ion-icon>
                     <p className="txt-icone">Assinar documentos digitais;</p>
                 </div>
                 <div className="lista">
-                    <Image src="/images/icons/seguro.png" width={25} height={25} className="img-icone"/>
+                    {/*
+                        <Image src="/images/icons/seguro.png" width={25} height={25} className="img-icone"/>
+                    */}
+                    <ion-icon name="lock" id="img-icone"></ion-icon>
                     <p className="txt-icone" >Acessar sistemas com dados restritos;</p>
                 </div>
                 <div className="lista">
-                    <Image src="/images/icons/work.png" width={25} height={25} className="img-icone"/>
+                    {/*
+                        <Image src="/images/icons/work.png" width={25} height={25} className="img-icone"/>
+                    */}
+                    <ion-icon name="laptop" id="img-icone"></ion-icon>
                     <p className="txt-icone">Trabalhar em sistemas virtuais;</p>
                 </div>
                 <div className="lista">
-                    <Image src="/images/icons/task.png" width={25} height={25} className="img-icone"/>
+                    {/*
+                        <Image src="/images/icons/task.png" width={25} height={25} className="img-icone"/>
+                    */}
+                    <ion-icon name="checkbox" id="img-icone"></ion-icon>
                     <p className="txt-icone">Executar um maior número de tarefas sem precisar se deslocar.</p>
                 </div>
             </div>

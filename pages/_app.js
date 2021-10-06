@@ -25,6 +25,7 @@ export default function MyApp({Component, pageProps}){
           `,
         }}
       />
+      <Script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js" />
 
     <Component {...pageProps}/>
 

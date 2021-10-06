@@ -289,9 +289,12 @@ body{
     margin-top: 50px;
 }
 
-.img-icone{
+#img-icone{
     margin-left: 10px;
     margin-right: 10px;
+    width: 25px !important;
+    height: 25px !important;
+    color: #04BF45 !important;
 }
 .txt-icone{
     margin-left: 10px;

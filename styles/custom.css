@@ -319,6 +319,15 @@ body{
     font-weight: 600;
 }
 
+.iframe-tag{
+    display: none; 
+    visibility: hidden;
+}
+
+.img-script{
+    display: none;
+}
+
 /**********************************************
 **********************************************
 ////Comportamento em Dispositivos móveis.////

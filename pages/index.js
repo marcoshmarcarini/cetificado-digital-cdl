@@ -6,11 +6,15 @@ import Footer from '../components/footer'
 
 function PaginaInicial(){
     return (
-            <div>
+            <>
+                
                 <Cabecalho/>
+                <noscript>
+                    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NW29PBT" height="0" width="0" className="iframe-tag"></iframe>
+                </noscript>
                 <Conteudo/>
                 <Footer/> 
-            </div>
+            </>
         )
 }
 

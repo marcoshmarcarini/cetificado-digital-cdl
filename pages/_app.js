@@ -30,7 +30,11 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      {/* Google Tag Manager - Global base code */}
+    <Script src={`https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`} />
+      {/* 
+      
+      Google Tag Manager - Global base code 
+
       <Script
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -43,6 +47,7 @@ function MyApp({ Component, pageProps }) {
           `,
         }}
       />
+      */}
       {/* Global Site Code Pixel - Facebook Pixel */}
       <Script
         strategy="afterInteractive"

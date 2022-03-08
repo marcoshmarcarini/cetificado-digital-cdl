@@ -1,35 +1,45 @@
 import '../styles/custom.css'
-import * as gtag from '../lib/gtag'
+import { useEffect } from 'react'
 import Script from 'next/script'
-import Head from 'next/head'
+import { useRouter } from 'next/router'
+import * as gtag from '../lib/gtag'
 
-export default function MyApp({Component, pageProps}){
-    return( 
+const App = ({ Component, pageProps }) => {
+  const router = useRouter()
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      gtag.pageview(url)
+    }
+    router.events.on('routeChangeComplete', handleRouteChange)
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
+  }, [router.events])
+
+  return (
     <>
-
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
-          strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
       />
-        <Script
-          id="gtag-init"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${gtag.GA_TRACKING_ID}', {
-                page_path: window.location.pathname,
-              });
-            `,
-          }}
-        />
-        <Script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js" />
-        
-      <Component {...pageProps}/>
-   
+      <Script
+        id="gtag-init"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${gtag.GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
+      <Component {...pageProps} />
     </>
-    )
-} 
+  )
+}
+
+export default App

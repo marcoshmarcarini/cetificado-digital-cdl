@@ -12,9 +12,9 @@ body{
     color: #ffffff;
     animation: iniciar 400ms;
     background: rgb(56,103,214);
-    background: linear-gradient(150deg, rgba(56,103,214,1) 0%, rgba(38,222,129,1) 100%);
-    background-size: 500% 500%;
-    animation: colors 15s ease infinite;
+    background: linear-gradient(135deg, rgba(56,103,214,1) 0%, rgba(38,222,129,1) 100%);
+    background-size: 100% 100%;
+    /*animation: colors 15s ease infinite;*/
 }
 @keyframes iniciar {
     from{opacity: 0;}

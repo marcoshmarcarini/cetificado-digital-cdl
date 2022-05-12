@@ -5,7 +5,7 @@ function Conteudo (){
     return(
         <div>
             <div className="conteudo">
-                    <p className="txt-conteudo">Certificado Digital</p>
+                    <p className="txt-conteudo">Certificado Digital CDL Cachoeiro</p>
                     <Textos/>
                                 <div className="imagem-post1">
                                     <div className="conteudo-imagem">
@@ -43,7 +43,7 @@ function Conteudo (){
                                 <a href="tel:+552835261600" className="tel-fixo">Obter Oferta!</a>
                             </div>
                             <div className="contato2">
-                                <a href="https://wa.me/5528992985763?text=Olá!+Desejo+fazer+meu+certificado." className="tel-whats">WhatsApp</a>
+                                <a href="https://wa.me/5528992985763?text=Olá!+Desejo+fazer+meu+certificado." className="tel-whats">Agende Agora</a>
                             </div>
                         </div>
                     </div>

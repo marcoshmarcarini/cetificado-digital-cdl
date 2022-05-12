@@ -1,19 +1,31 @@
 //import Head from 'next/head'
+import BannerSite from '../components/banner'
 import Cabecalho from '../components/cabecalho'
-import Conteudo from '../components/conteudo'
+import Duvidas from '../components/duvidas'
+import Ecnpj from '../components/ecnpj'
+import Ecpf from '../components/ecpf'
 import Footer from '../components/footer'
+import MainMenu from '../components/menu'
+import Vantagens from '../components/vantagens'
+import Videos from '../components/videos'
 
 
 
 
 function PaginaInicial(){
     return (
-            <>
-                <Cabecalho/>
-                <Conteudo/>
-                <Footer/> 
-            </>
-        )
+        <>
+            <Cabecalho/>
+            <MainMenu/>
+            <BannerSite/>
+            <Videos/>
+            <Ecnpj/>
+            <Ecpf/>
+            <Vantagens/>
+            <Duvidas/>
+            <Footer/> 
+        </>
+    )
 }
 
 export default PaginaInicial

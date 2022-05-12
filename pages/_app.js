@@ -1,4 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/custom.css'
+import '../styles/vantagens.css'
+import '../styles/duvidas.css'
 import { useEffect } from 'react'
 import Script from 'next/script'
 import { useRouter } from 'next/router'
@@ -30,7 +33,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-    <Script src={`https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`} />
+    <Script src={`"https://www.googletagmanager.com/gtm.js?id=${GTM_ID}"`} />
       {/* 
       
       Google Tag Manager - Global base code 

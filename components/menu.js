@@ -27,12 +27,12 @@ function MainMenu(){
                             </ul>
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="https://www.instagram.com/cdlcachoeiro/">
+                                    <a className="nav-link" href="https://www.instagram.com/cdlcachoeiro/" target="_blank">
                                         <img src="https://img.icons8.com/ios/25/ffffff/instagram-new--v1.png"/>
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="https://www.facebook.com/cdl.cachoeiro">
+                                    <a className="nav-link" href="https://www.facebook.com/cdl.cachoeiro" target="_blank">
                                         <img src="https://img.icons8.com/ios/25/ffffff/facebook--v1.png"/>
                                     </a>
                                 </li>

@@ -22,8 +22,11 @@ function PaginaInicial(){
                     <Ecpf/>
                     <Vantagens/>
                     <Duvidas/>
-                    <Cta/>
-                    <ConhecaSite/>
+                    <div className='cta-espaco'>
+                        <Cta/>
+                        <ConhecaSite/>
+                    </div>
+                    
             <Footer/> 
         </>
     )

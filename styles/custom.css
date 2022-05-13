@@ -522,4 +522,7 @@ body{
         width:320px !important;
         height: 240px !important;
     }
+    body{
+        background-size: 150% 150%;
+    }
 }

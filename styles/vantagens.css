@@ -56,10 +56,26 @@
     z-index: 10;
 }
 
+.vantagens-icon:hover{
+    animation: shake 250ms ease-in;
+}
+
 @media (max-width:990px) {
     .vantagens-conteudo{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
+}
+
+@keyframes shake {
+   0%{
+       transform: translateY(0px);
+   }
+   50%{
+       transform: translateY(-5px);
+   }
+   100%{
+        transform: translateY(0px);
+   }   
 }

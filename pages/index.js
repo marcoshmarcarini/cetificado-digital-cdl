@@ -1,6 +1,8 @@
 //import Head from 'next/head'
 import BannerSite from '../components/banner'
 import Cabecalho from '../components/cabecalho'
+import Cta from '../components/cta'
+import ConhecaSite from '../components/cta-site'
 import Duvidas from '../components/duvidas'
 import Ecnpj from '../components/ecnpj'
 import Ecpf from '../components/ecpf'
@@ -9,20 +11,19 @@ import MainMenu from '../components/menu'
 import Vantagens from '../components/vantagens'
 import Videos from '../components/videos'
 
-
-
-
 function PaginaInicial(){
     return (
         <>
             <Cabecalho/>
-            <MainMenu/>
-            <BannerSite/>
-            <Videos/>
-            <Ecnpj/>
-            <Ecpf/>
-            <Vantagens/>
-            <Duvidas/>
+                <MainMenu/>
+                    <BannerSite/>
+                    <Videos/>
+                    <Ecnpj/>
+                    <Ecpf/>
+                    <Vantagens/>
+                    <Duvidas/>
+                    <Cta/>
+                    <ConhecaSite/>
             <Footer/> 
         </>
     )

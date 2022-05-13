@@ -13,8 +13,8 @@ body{
     animation: iniciar 400ms;
     background: rgb(56,103,214);
     background: linear-gradient(135deg, rgba(56,103,214,1) 0%, rgba(38,222,129,1) 100%);
-    background-size: 100% 100%;
-    /*animation: colors 15s ease infinite;*/
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
 }
 @keyframes iniciar {
     from{opacity: 0;}
@@ -52,6 +52,10 @@ body{
 
 
 /*Primeira parte do site abaixo do Head*/
+.banner{
+    margin-top: 79px !important;
+    animation: mostrarImagem 1s ease-in-out;
+}
 
 .ecnpj-area{
     color: #ffffff;
@@ -76,6 +80,14 @@ body{
     max-width: 500px;
 }
 
+.ecnpj-card{
+    animation: direita 1s ease-in-out;
+}
+
+.ecpf-card{
+    animation: esquerda 1s ease-in-out;
+}
+
 .videos{
     display: flex;
     flex-direction: row;
@@ -84,6 +96,7 @@ body{
     gap: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
+    animation: mostrarImagem 1s ease-in-out;
 }
 .video-frame{
     border-radius: 15px;
@@ -489,3 +502,24 @@ body{
     }
 }
 
+
+@media (max-width:1079px) {
+    .video-frame{
+        width: 420px !important;
+    }
+}   
+
+@media (max-width: 990px){
+    .ecnpj{
+        display: flex;
+        flex-direction: column;
+    }
+    .ecnpj-title{text-align: center;}
+}
+
+@media (max-width: 500px){
+    .video-frame{
+        width:320px !important;
+        height: 240px !important;
+    }
+}

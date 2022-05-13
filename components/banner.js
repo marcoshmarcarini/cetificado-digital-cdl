@@ -3,7 +3,7 @@ import Image from "next/image"
 function BannerSite(){
     return(
         <>
-            <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div id="carouselExampleFade" className="carousel slide carousel-fade mt-5 banner" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <Image src="/images/banner/Banner-1.png" className="d-block w-100" alt="..." width={1920} height={533}/>

@@ -3,7 +3,7 @@ import Image from "next/image"
 function MainMenu(){
     return(
         <>
-            <div className="main-menu">
+            <div className="main-menu fixed-top mb-5">
                 <nav className="navbar navbar-expand-lg navbar-dark">
                     <div className="container">
                         <a className="navbar-brand logo-selo" href="/" >

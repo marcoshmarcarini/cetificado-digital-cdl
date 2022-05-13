@@ -4,7 +4,7 @@ function Ecnpj(){
     return(
         <>
             <div className="container ecnpj-area">
-                <h1 className="enpj-title" id="ecnpj">E-CNPJ</h1>
+                <h1 className="ecnpj-title" id="ecnpj">E-CNPJ</h1>
                     <div className="ecnpj">
                         <div className="ecnpj-txt">
                             <p>

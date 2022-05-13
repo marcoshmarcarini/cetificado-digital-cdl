@@ -4,7 +4,7 @@ function Ecpf(){
     return(
         <>
             <div className="container ecnpj-area">
-                <h1 className="enpj-title" id="ecpf">E-CPF</h1>
+                <h1 className="ecnpj-title mt-5" id="ecpf">E-CPF</h1>
                     <div className="ecnpj">
                         <div className="ecpf-card">
                             <Image src="/images/cards/e-cpf.png" width={480} height={280} />

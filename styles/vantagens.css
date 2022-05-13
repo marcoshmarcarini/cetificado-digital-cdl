@@ -55,3 +55,11 @@
     padding: 20px;
     z-index: 10;
 }
+
+@media (max-width:990px) {
+    .vantagens-conteudo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
